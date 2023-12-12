@@ -1,6 +1,8 @@
 # New Project
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+> ✨ Bootstrapped with Create Snowpack App 
+> Style Uikit 
+> Typescript
 
 ## Available Scripts
 
@@ -11,6 +13,9 @@ Open http://localhost:8080 to view it in the browser.
 
 The page will reload if you make edits.
 You will also see any lint errors in the console.
+
+### npm run dev 
+Runs tsc --watch and builds `dist/` folder script.js
 
 ### npm run build
 

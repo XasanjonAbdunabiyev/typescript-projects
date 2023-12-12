@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Starter Snowpack App" />
+		<!-- Custom Css Link -->
+		<link rel="stylesheet" type="text/css" href="./src/styles/index.css" />
+		<!-- UIkit CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/css/uikit.min.css"
+		/>
+		<title>Simple Todo App</title>
+	</head>
+	<body>
+		<div class="uk-container">
+			<ul class="uk-list" id="list">
+				<h3>Todo</h3>
+			</ul>
+			<form id="new-task-form">
+				<div class="uk-margin-bottom">
+					<input
+						class="uk-input"
+						autocomplete="off"
+						type="text"
+						placeholder="To do somethings"
+						id="new-task-title"
+					/>
+				</div>
+				<button type="submit" class="uk-button uk-button-default">
+					Add
+				</button>
+			</form>
+		</div>
+		<script type="module" src="/dist/script.js"></script>
+		<!-- UIkit JS -->
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/js/uikit.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/js/uikit-icons.min.js"></script>
+	</body>
+</html>

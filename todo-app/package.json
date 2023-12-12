@@ -1,0 +1,22 @@
+{
+	"name": "todo-app",
+	"author": "Xasanjon Abdunabiyev",
+	"description": "first pure javascript project",
+	"scripts": {
+		"start": "snowpack dev",
+		"build": "snowpack build",
+		"dev": "tsc --watch",
+		"format": "npx prettier . --write"
+	},
+	"devDependencies": {
+		"@snowpack/plugin-typescript": "^1.2.1",
+		"@types/snowpack-env": "^2.3.6",
+		"@types/uuid": "^9.0.7",
+		"prettier": "3.1.1",
+		"snowpack": "^3.3.7",
+		"typescript": "^5.3.3"
+	},
+	"dependencies": {
+		"uuid": "^9.0.1"
+	}
+}
